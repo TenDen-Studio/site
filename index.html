@@ -1,1 +1,155 @@
-
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>天殿工作室 · TenDen Studio</title>
+    
+    <!-- 网站图标 Favicon -->
+    <link rel="icon" type="image/png" href="https://zhishi.oss-cn-beijing.aliyuncs.com/activity/gameJam/6219db0412f8c304d854645c/9172d6121180b4cf0d95f321a2a71cd1.png" />
+    
+    <!-- 基础样式 -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: #f8f9fc;
+            color: #1a1a2e;
+            padding: 20px;
+        }
+        
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+            background: rgba(255,255,255,0.85);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+            border: 1px solid rgba(255,255,255,0.5);
+        }
+        
+        /* 使用你的图片作为品牌图标 */
+        .brand-icon {
+            width: 96px;
+            height: 96px;
+            border-radius: 50%;
+            object-fit: contain;
+            margin-bottom: 24px;
+            background: #ffffff;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+            padding: 12px;
+        }
+        
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: #4a4a6a;
+            font-weight: 400;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+        
+        .divider {
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #6c5ce7, #a29bfe);
+            margin: 16px auto 24px;
+            border-radius: 2px;
+        }
+        
+        p {
+            color: #5a5a7a;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            margin-bottom: 32px;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            border: 1px solid #c8e6c9;
+        }
+        
+        .footer {
+            margin-top: 32px;
+            font-size: 0.85rem;
+            color: #9a9ab0;
+        }
+        
+        .footer a {
+            color: #6c5ce7;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* 移动端适应 */
+        @media (max-width: 480px) {
+            .container {
+                padding: 28px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+            .brand-icon {
+                width: 72px;
+                height: 72px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 使用你指定的图标 -->
+        <img 
+            class="brand-icon" 
+            src="https://zhishi.oss-cn-beijing.aliyuncs.com/activity/gameJam/6219db0412f8c304d854645c/9172d6121180b4cf0d95f321a2a71cd1.png" 
+            alt="天殿工作室图标"
+            loading="lazy"
+        />
+        
+        <h1>天殿工作室</h1>
+        <div class="subtitle">TenDen Studio</div>
+        <div class="divider"></div>
+        
+        <p>
+            匠心独运 · 静待花开<br />
+            我们正在用心打磨作品，<br />
+            很快与你相见。
+        </p>
+        
+        <div class="status-badge">🚧 筹备中 · 即将启航</div>
+        
+        <div class="footer">
+            &copy; 2026 <a href="#">天殿工作室</a> · 保持热爱
+        </div>
+    </div>
+</body>
+</html>
